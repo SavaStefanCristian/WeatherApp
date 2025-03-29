@@ -1,0 +1,53 @@
+{
+  "locationData": [
+    {
+      "name": "Monaco",
+      "latitude": 43.7333,
+      "longitude": 7.4167
+    }
+  ],
+  "currentWeatherData": [
+    {
+      "locationName": "Monaco",
+      "temperature": 14,
+      "state": "CLOUDY"
+    }
+  ],
+  "forecastData": [
+    {
+      "locationName": "Monaco",
+      "date": "2025-01-18",
+      "high": 17,
+      "low": 8,
+      "state": "CLOUDY"
+    },
+    {
+      "locationName": "Monaco",
+      "date": "2025-01-19",
+      "high": 16,
+      "low": 8,
+      "state": "CLOUDY"
+    },
+    {
+      "locationName": "Monaco",
+      "date": "2025-01-20",
+      "high": 14,
+      "low": 8,
+      "state": "RAINING"
+    },
+    {
+      "locationName": "Monaco",
+      "date": "2025-01-21",
+      "high": 14,
+      "low": 8,
+      "state": "CLOUDY"
+    },
+    {
+      "locationName": "Monaco",
+      "date": "2025-01-22",
+      "high": 12,
+      "low": 10,
+      "state": "RAINING"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="persistenceUnit">
+        <class>org.proiect.persistence.model.CurrentWeatherEntity</class>
+        <class>org.proiect.persistence.model.ForecastEntity</class>
+        <class>org.proiect.persistence.model.LocationEntity</class>
+        <class>org.proiect.persistence.model.RoleEntity</class>
+        <class>org.proiect.persistence.model.UserEntity</class>
+        <class>org.proiect.persistence.model.UserRole</class>
+        <class>org.proiect.persistence.model.enums.Role</class>
+        <class>org.proiect.persistence.model.enums.WeatherState</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:postgresql://localhost:****/******"/>
+            <property name="eclipselink.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="eclipselink.jdbc.user" value="******"/>
+            <property name="eclipselink.jdbc.password" value="******"/>
+        </properties>
+    </persistence-unit>
+</persistence>
