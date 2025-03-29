@@ -5,6 +5,7 @@ This is a **client-server Weather App** built in **Java (Maven)** with a **Postg
 
 #### 🔹 Features  
 ✅ **User Authentication**: Create or log into an account.  
+✅ **Argon2 Password Hashing**: Ensures strong password security.  
 ✅ **Location Selection**: Choose a location by name or coordinates.  
 ✅ **Efficient Lookup**: Finds the closest known location when selecting by coordinates.  
 ✅ **Weather Data**: View current weather and a multi-day forecast.  
